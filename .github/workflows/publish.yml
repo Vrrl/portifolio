@@ -34,7 +34,7 @@ jobs:
         run: npm install
 
       - name: Build Next.js app
-        run: npm run build && ls-la
+        run: npm run build && ls -la
 
       - name: Upload artifact 📡
         uses: actions/upload-pages-artifact@v3
