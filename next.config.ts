@@ -3,10 +3,11 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: 'export',
-  assetPrefix: './',
-  images: {
-    unoptimized: true,
-  },
+  assetPrefix: '/portifolio/',
+  basePath: '/portifolio',
+  reactStrictMode: true,
+  trailingSlash: true,
+  distDir: 'out',
 };
 
 export default nextConfig;
